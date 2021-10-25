@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en San Juan</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">San Juan</span> </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+                <section class="datos">
+                    <h3>San Juan en Datos</h3>
+                    <p> Capital: Ciudad de San Juan</p>
+                    <p>En sus fértiles valles y desiertos silenciosos, su gente ha sabido enfrentar la adversidad con
+                        empeño y esperanza, contribuyendo al crecimiento cultural e industrial del país.</p>
+                    <p>En lo que se refiere al clima, en el Oeste predomina el árido de alta montaña, con temperatura
+                        media anual inferior a 12°C y en el Este, el árido de sierras y bolsones, con temperatura
+                        oscilantes entre 14 y 18°C.</p>
+                </section>
+
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>Paso de Agua Negra</h2>
+                        <p class="lugares-txt">El Paso de Agua Negra, o Paso del Agua Negra, es un paso fronterizo de
+                            Argentina y Chile, localizado en la cordillera de Agua Negra, entre el Departamento Iglesia
+                            de la provincia argentina de San Juan y en la provincia chilena de Elqui de la región de
+                            Coquimbo, comuna de Vicuña. Comunica las localidades de Las Flores (6000 habitantes),
+                            departamento Iglesia -distante 2 km del Complejo Fronterizo de Control Migratorio-Aduanero,
+                            y 70 km de San José de Jachal-, con la localidad de Huanta (3500 habitantes), distante 90 km
+                            del Límite Internacional.
+
+                            Debido a su altitud, este paso se encuentra abierto en temporada estival (de diciembre a
+                            abril). El resto del año queda bloqueado por la nieve. Es el paso fronterizo internacional
+                            más alto entre Argentina y Chile, a una altura de 4780 msnm es uno de los pasos
+                            internacionales más altos del mundo, superado ampliamente por el paso internacional de
+                            Karakorum (entre Pakistán y China) de 5540 msnm.</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/san-juan/agua-negra1.jpg" alt="Paso de Agua Negra"></div>
+                    <div class="lugares-img2"><img src="img/san-juan/agua-negra2.jpg" alt="Paso de Agua Negra"></div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27588.423317505472!2d-69.84296970932397!3d-30.192762837012605!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x96852f90b5826f0d%3A0xa7330b852a42fa19!2sPaso%20de%20Agua%20Negra!5e0!3m2!1ses!2sar!4v1634687476331!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

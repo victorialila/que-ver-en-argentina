@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sugerencias - Que ver en Argentina</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/sugerencias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+    <header>
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca-de.html">Nosotros</a></li>
+                <li><a class="active" href="sugerencias.html">Sugerencias</a></li>
+                <li><a href="registro.html">Registrate</a></li>
+                <li><a href="inspirate.html">Inspirate</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+            <div class="nom-negocio">
+                <h1>Que ver en Argentina</h1>
+            </div>
+            <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+            
+        </div>
+    </header>
+
+    <main>
+        <h2>Sugerencias</h2>
+        
+        <form action="" name="formulario" method="get">
+            <label class="label" for="fname">Nombre: </label>
+                <input class="input" type="text" name="fname" id="fname"> <br><br>
+            <label class="label" for="lname">Apellido: </label>
+                <input class="input" type="text" id="lname" name="lname"> <br><br>
+            <label class="label" for="mail">Mail de contacto: </label>
+                <input class="input" type="email" id="mail" name="mail"> <br><br>
+            <p class="texto">¡Comentanos sobre tu lugar! <br> Dejanos un enlace de drive con las fotos y videos que tengas del lugar.
+                Si tiene sitio web propio también podés dejarlo acá.</p>
+            <textarea class="input" name="coment" id="coment" cols="45" rows="5"
+                placeholder="Escribí tu comentario..."></textarea>
+
+          
+            <br><br><input class="button" type="submit" name="btn" id="btn" value="Enviar" onclick="frenarEnvioSugerencias()">
+            <button class="button" type="reset">Borrar</button>
+        </form>
+        <script src="js/validacion.js"></script>
+        
+
+        <div class="texto">
+            <p>También podés escribirnos a: <a class="enlace"
+                    href="mailto:hola@visitandoargentina.com">hola@visitandoargentina.com</a>
+            </p>
+            <p>Encontranos en redes sociales</p>
+        </div>
+
+        
+        
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

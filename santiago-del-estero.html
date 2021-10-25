@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en Santiago del Estero</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">Santiago del Estero</span>
+                    </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+                <section class="datos">
+                    <h3>Santiago del Estero en Datos</h3>
+                    <p> Capital: Ciudad de Santiago del Estero</p>
+                    <p>De nuestra capital, “Madre de Ciudades”, partieron las expediciones fundacionales de los demás
+                        núcleos poblacionales del Norte y Cuyo argentinos.</p>
+                    <p>En cuanto al clima, predomina el semitropical continental con estación seca, de temperaturas
+                        extremas y precipitaciones abundantes en verano, aunque frío en invierno con marcada amplitud
+                        térmica diaria.</p>
+                </section>
+
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>Termas de Río Hondo</h2>
+                        <p class="lugares-txt">Termas de Río Hondo es una ciudad del norte de Argentina, en la provincia
+                            de Santiago del Estero. Es cabecera del departamento Río Hondo, a orillas del río Dulce. La
+                            ciudad es el principal centro termal del país, ya que la misma se encuentra sobre una gran
+                            terma mineralizada que cubre 12 km a la redonda. Las aguas se indican especialmente como
+                            tónicas así como para la presión sanguínea y el reumatismo. Cuenta con una infraestructura
+                            hotelera de más de 170 establecimientos de distintas categorías, con 14.500 plazas, además
+                            de numerosos acampes.</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/santiago-del-estero/termas1.JPG" alt="Termas de Río Hondo">
+                    </div>
+                    <div class="lugares-img2"><img src="img/santiago-del-estero/termas2.jpg" alt="Termas de Río Hondo">
+                    </div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d56624.05195670233!2d-64.91358488254328!3d-27.500274466656066!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94236e669caaafcd%3A0x3f70fdb8b09c8578!2sTermas%20de%20R%C3%ADo%20Hondo%2C%20Santiago%20del%20Estero!5e0!3m2!1ses!2sar!4v1634688610653!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,90 @@
+/* General */
+.dark-mode {
+    background-color: #0b0125;
+    color: blanchedalmond;
+}
+
+/* Header */
+.dark-mode .menubar ul{
+    background-color: #0b0125;
+}
+
+.dark-mode .menubar li a{
+    color: blanchedalmond;
+}
+
+.dark-mode .articulo h2{   
+    color : blanchedalmond;
+}
+
+/* Página de cada Provincia */
+.dark-mode .datos{
+    border: 0.1rem blanchedalmond solid;
+}
+
+.dark-mode .datos h3{
+    color : blanchedalmond;
+}
+
+.dark-mode .datos p{
+    color : blanchedalmond;
+}
+
+.dark-mode .articulo {
+    border-bottom: 0.2rem blanchedalmond solid;
+    border-bottom-style: dashed;
+}
+
+
+/* Nosotros */
+.dark-mode h2{
+    color : blanchedalmond;   
+}
+
+.dark-mode .descripcion{
+    color : blanchedalmond;
+}
+
+
+/* Formularios */
+.dark-mode .label{
+    color : blanchedalmond;
+}
+
+.dark-mode .input, .dark-mode .select {
+    color : blanchedalmond;
+    background-color: #0b0125;
+}
+
+.dark-mode .opciones{
+    color : blanchedalmond;
+}
+
+.dark-mode .button {
+    color: blanchedalmond;
+}
+
+
+/* Inspirate */
+.dark-mode .main-inspirate{
+    cursor: url(cursor-oscuro.png),auto;
+}
+
+.dark-mode .boton{   
+    background-color: rgb(117,170,219,0.7);
+    border: rgb(117,170,219,0.8) solid; 
+    cursor: url(cursor-oscuro.png),auto;
+}
+
+.dark-mode .boton a{
+    color: blanchedalmond;  
+    cursor: url(cursor-oscuro.png),auto;
+}
+
+.dark-mode .texto {
+    color: blanchedalmond;
+}
+
+.dark-mode .enlace-inspirate {
+    cursor: url(cursor-oscuro.png),auto;
+}

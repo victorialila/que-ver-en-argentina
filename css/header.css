@@ -1,0 +1,148 @@
+/* menu de opciones */
+.menubar{
+    background-color: rgb(117,170,219,0.5);
+    background-size: initial;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0 auto;
+    padding-top: 0;
+    display: inline-block;
+}
+
+.menubar ul{
+    list-style-type: none;
+    background-color: white;
+    margin: 0 auto;
+    padding: 10px;
+}
+
+.menubar li{
+    display: inline-block;
+}
+
+.menubar li a{
+    color: #0b0125;
+    text-align: center;
+    padding: 10px 10px;
+    text-decoration: none;
+}
+
+.menubar li a:hover:not(.active){
+    background-color: rgb(117,170,219,0.5);
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.active{
+    background-color: rgb(117,170,219,0.5);
+    font-weight: bolder;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+
+/* logo y título */
+.titulo{
+    background-color: rgb(117,170,219,0.5);
+    overflow: auto;
+}
+
+.logo{
+    margin: 0.5rem;   
+    padding: auto;
+    float: left;
+    /* border: 2px fuchsia solid; */
+}
+
+.logo a img{
+    width: auto;
+    height: 9rem;
+}
+
+@font-face {
+    font-family: BabySparkle;
+    src: url(fonts/BabySparkle.ttf);
+}
+
+h1{    
+    font-family: BabySparkle;
+    font-size: 5.5rem;
+    font-weight: lighter;
+    text-align: center;
+    color : #0b0125;
+    padding: 0;
+    margin: 0;
+    display: block;
+}    
+
+.nom-negocio{
+    /* border: 2px blue solid; */
+    width: 100%;
+}
+
+@media (max-width: 880px) {  
+    h1{
+        font-size: 4rem;
+    }
+    .logo{
+        float: left;
+        text-align: left;
+    }
+    .logo a img{
+        width: auto;
+        height: 8rem;
+    }
+}
+
+.boton-dark{
+    background-color: rgb(117,170,219);
+    border: rgb(117,170,219,0.5) solid;
+    color: #0b0125;
+    /* padding: 5px 10px; */
+    text-align: center;
+    text-decoration: none;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-bottom: 0.5vh;
+    margin-right: 1vw;
+    float: right;
+}
+
+/* responsive */
+@media (max-width: 620px) {
+    .menubar li {
+        display: flex;
+        flex-direction: column;
+    }
+    .menubar{
+        float: left;
+    }
+    .menubar ul{
+        padding-right: 0;
+    }
+    .menubar li a:hover:not(.active){      
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .active{        
+        border-top-left-radius: 5px;
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 5px;
+    }
+    .logo{
+        float: none;
+        text-align: center;
+    }
+    .logo a img{
+        width: auto;
+        height: 6rem;
+    }
+    h1 {
+        font-size: 3rem;
+    }
+    .center {
+        text-align: center;
+    }
+}

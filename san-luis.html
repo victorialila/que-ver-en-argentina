@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en San Luis</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">San Luis</span> </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+                <section class="datos">
+                    <h3>San Luis en Datos</h3>
+                    <p> Capital: San Luis</p>
+                    <p>Tierra de jarillares, retamas, quebrachos blancos, algarrobos y chañares, poblada de aves de
+                        todos los tamaños y colores.</p>
+                    <p>En la zona serrana el clima es árido, aunque en las laderas orientales presenta variante de
+                        templado serrano, más húmedo que el anterior.</p>
+                </section>
+
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>Villa de Merlo</h2>
+                        <p class="lugares-txt">Merlo (cuyo nombre oficial - que permite diferenciarlo del municipio
+                            bonaerense homónimo - es Ciudad Villa de Merlo,1 derivado del nombre original Melo en honor
+                            a Pedro Melo de Portugal) es una ciudad argentina del departamento Junín de la provincia de
+                            San Luis.
+                            Se caracteriza por ser uno de los microclimas del mundo,[cita requerida]2 la ciudad con
+                            mejor calidad ambiental del país3 y la tercera ciudad con mayor población de San Luis, con
+                            más de 17.084 habitantes según el último censo nacional del año 2010.4
+                            Desde la primera mitad del siglo XX es uno de los destinos turísticos más relevantes de la
+                            República Argentina y es también una de las ciudades con mayor crecimiento demográfico (84%)
+                            a nivel nacional durante la primera década del siglo XXI.</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/san-luis/merlo1.jpg" alt="Villa de Merlo"></div>
+                    <div class="lugares-img2"><img src="img/san-luis/merlo2.jpg" alt="Villa de Merlo"></div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d53928.7235375534!2d-65.04281050298684!3d-32.350916462154096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d2e165a7228377%3A0x247528dcac38584b!2sMerlo%2C%20San%20Luis!5e0!3m2!1ses!2sar!4v1634673023076!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>La Toma</h2>
+                        <p class="lugares-txt">La Toma es una ciudad argentina ubicada en el Valle de Conlara,
+                            Departamento Coronel Pringles, Provincia de San Luis. Es un importante centro minero con
+                            talleres donde se trabaja la piedra ónix, razón por la que se la conoce como capital del
+                            mármol ónix. Piedra única en el mundo.
+                            La Toma es conocida como un centro de turismo receptivo, cuya principal actividad es el
+                            turismo aventura.
+                            El ferrocarril hizo nacer a este pueblo en 1905, luego fundado por decreto provincial en
+                            1906.
+                            Las localidades vecinas que limitan con La Toma son: Naschel (27.1km), Paso grande(19.9km),
+                            San José del Morro(21.4km)y Saladillo(27.4km)</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/san-luis/toma1.jpg" alt="La Toma"></div>
+                    <div class="lugares-img2"><img src="img/san-luis/toma2.jpg" alt="La Toma"></div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d26752.320777874782!2d-65.6373095547776!3d-33.055411176868176!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95d3932486f8a14f%3A0xff82394f55561c97!2sLa%20Toma%2C%20San%20Luis!5e0!3m2!1ses!2sar!4v1634673045672!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

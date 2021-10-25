@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en NOMBRE</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">NOMBRE</span> </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+            
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">                
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

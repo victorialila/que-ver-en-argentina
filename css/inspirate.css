@@ -1,0 +1,48 @@
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #0b0125;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(117,170,219);
+}
+
+@font-face {
+    font-family: BabySparkle;
+    src: url(fonts/BabySparkle.ttf);
+}
+
+.main-inspirate{
+    cursor: url(cursor-claro.png),auto;
+}
+
+.center {
+    text-align: center;
+    margin-top: 2vh;
+}
+
+.boton {
+    background-color: rgb(117,170,219,0.5);
+    border: rgb(117,170,219,0.5) solid;
+    color: #0b0125;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    font: 2.5rem BabySparkle;
+    border-radius: 5px;
+    cursor: url(cursor-claro.png),auto;
+}
+
+.texto {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color: #0b0125;
+    padding: 5px 10px;
+    text-align: center;
+    font-size: 1rem;
+}
+
+.enlace-inspirate{
+    color: #0b0125;
+    text-decoration: none;
+    cursor: url(cursor-claro.png),auto;
+}

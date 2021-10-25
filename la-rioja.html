@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en La Rioja</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">La Rioja</span> </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+                <section class="datos">
+                    <h3>La Rioja en Datos</h3>
+                    <p> Capital: Ciudad de La Rioja</p>
+                    <p>En nuestro suelo nacieron y defendieron el ideario federal Facundo Quiroga y el Chacho Peñaloza.
+                        También fuimos la cuna de prominentes educadores como Joaquín V. González y Rosario Vera
+                        Peñaloza.</p>
+                    <p>El clima que predomina en nuestro territorio es el semiárido y con escasa humedad. En las zonas
+                        bajas, los veranos son muy calurosos y los inviernos cortos y con bajas temperaturas.</p>
+                </section>
+
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>Cerro General Manuel Belgrano</h2>
+                        <p class="lugares-txt">Sierra de Famatina es una cadena montañosa y macizo en los Andes de la
+                            provincia argentina de La Rioja. La cordillera se eleva entre los valles norte-sur de
+                            Bermejo y Antinaco-Los Colorados. El punto más alto, designado Cerro General Belgrano (una
+                            vez conocido como Nevado de Famatina), se eleva 20.505 pies (6.250 m) y aparece en el escudo
+                            de armas de la provincia de La Rioja.</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/la-rioja/cerro-belgrano1.jpg"
+                            alt="Cerro General Manuel Belgrano"></div>
+                    <div class="lugares-img2"><img src="img/la-rioja/cerro-belgrano2.jpg"
+                            alt="Cerro General Manuel Belgrano"></div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d27916.59028845876!2d-67.86750961110873!3d-28.999998365535642!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x969d0a06c4ed1c31%3A0xbd16bc9be972bcab!2sCerro%20Gral.%20Belgrano!5e0!3m2!1ses!2sar!4v1634671195924!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

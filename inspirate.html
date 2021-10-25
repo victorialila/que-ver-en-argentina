@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inspirate - Que ver en Argentina</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/inspirate.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca-de.html">Nosotros</a></li>
+                <li><a href="sugerencias.html">Sugerencias</a></li>
+                <li><a href="registro.html">Registrate</a></li>
+                <li><a class="active" href="inspirate.html">Inspirate</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+            <div class="nom-negocio">
+                <h1>Que ver en Argentina</h1>
+            </div>
+            <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+            
+        </div>
+    </header>
+
+    <main class="main-inspirate">
+        <div class="center">
+            <h2>Inspirate</h2>
+            <p class="texto">¿No sabés a dónde ir?</p>
+            <p class="texto">Hace click en el botón e inspirate para tu próximo viaje</p>
+            <br><br>
+            <button type="button" class="boton" id="btn"></button>
+        </div>
+        <br>
+        <script src="js/random-page.js"></script>
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

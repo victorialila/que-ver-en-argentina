@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Que ver en Santa Fé</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/provincias.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <div class="center">
+            <nav class="menubar" id="myTopnav">
+                <ul id="miLinks">
+                    <li><a href="index.html">Inicio</a></li>
+                    <li><a href="acerca-de.html">Nosotros</a></li>
+                    <li><a href="sugerencias.html">Sugerencias</a></li>
+                    <li><a href="registro.html">Registrate</a></li>
+                    <li><a href="inspirate.html">Inspirate</a></li>
+                </ul>
+            </nav>
+            <div class="titulo">
+                <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+                <div class="nom-negocio">
+                    <h1>Que ver en <span class="tit-prov animate__animated animate__flash">Santa Fé</span> </h1>
+                </div>
+                <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+
+            </div>
+        </div>
+
+    </header>
+
+    <main>
+        <div class="contenedor">
+            <div class="atracciones">
+
+
+                <section class="datos">
+                    <h3>Santa Fe en Datos</h3>
+                    <p> Capital: Santa Fe de la Vera Cruz</p>
+                    <p>Fue la primera provincia en dictar su propia Constitución y también pionera –junto con Buenos
+                        Aires- en aplicar la Ley Sáenz Peña.</p>
+                    <p>En cuanto al clima, el Sur nuestro territorio presenta un régimen térmico y precipitaciones
+                        propios de la llanura pampeana. El Norte, en cambio, posee temperaturas más elevadas, con
+                        precipitaciones superiores a los 800 mm en el Este, en disminución hacia el Oeste. En invierno,
+                        presenta una marcada estación seca.</p>
+                </section>
+
+                <article class="articulo">
+                    <div class="lugares-nom">
+                        <h2>Rafaela</h2>
+                        <p class="lugares-txt">Rafaela es una ciudad de la República Argentina ubicada en el
+                            centro-oeste de la provincia de Santa Fe. Es la cabecera del departamento Castellanos y a su
+                            vez es el tercer centro urbano más poblado e importante de la provincia, detrás de Rosario y
+                            Santa Fe. Es conocida como "La Perla del Oeste" debido a las bellezas naturales, culturales
+                            y arquitectónicas que la componen. La población estimada de la ciudad en 2021 fue de 109.000
+                            habitantes, de acuerdo al informe del relevamiento socioeconómico del ICEDeL,1 el instituto
+                            estadístico de la ciudad.</p>
+                    </div>
+                    <div class="lugares-img1"><img src="img/santa-fe/rafaela1.png" alt="Rafaela"></div>
+                    <div class="lugares-img2"><img src="img/santa-fe/rafaela2.jpg" alt="Rafaela"></div>
+                    <div class="lugares-map"><iframe
+                            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d54572.34175419968!2d-61.522802469978835!3d-31.25475217815895!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95caae460db27c0f%3A0x8be1b926d473c17b!2sRafaela%2C%20Santa%20Fe!5e0!3m2!1ses!2sar!4v1634688421224!5m2!1ses!2sar"
+                            style="border:0;" allowfullscreen="" loading="lazy"></iframe></div>
+                </article>
+
+
+                <article id="tuLugar" class="articulo"></article>
+
+            </div>
+
+
+            <aside class="promo izquierda">
+                <a href="contacto-promo.html" target="_blank"> <img class="promoimg promoV" src="img/promo-banner.gif"
+                        alt="ad"> </a>
+            </aside>
+
+            <aside class="promo derecha">
+                <a href="https://play.google.com/store" target="_blank"> <img class="promoimg" src="img/promoBA.gif"
+                        alt="ad">
+                </a>
+            </aside>
+        </div>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+    <script src="js/tu-lugar.js"></script>
+
+</body>
+
+</html>

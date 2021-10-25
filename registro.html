@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registrate - Que ver en Argentina</title>
+    <script src="https://kit.fontawesome.com/ada2b9dabd.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="logo.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/header.css">
+    <link rel="stylesheet" href="css/footer.css">
+    <link rel="stylesheet" href="css/dark-mode.css">
+    <link rel="stylesheet" href="css/registro.css">
+    <script src="js/dark-mode.js"></script>
+</head>
+
+<body onload="leerModo()">
+
+    <header>
+        <nav class="menubar">
+            <ul>
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="acerca-de.html">Nosotros</a></li>
+                <li><a href="sugerencias.html">Sugerencias</a></li>
+                <li><a class="active" href="registro.html">Registrate</a></li>
+                <li><a href="inspirate.html">Inspirate</a></li>
+            </ul>
+        </nav>
+        <div class="titulo">
+            <div class="logo"><a href="index.html"> <img src="img/logo2.png" alt="logo"> </a></div>
+            <div class="nom-negocio">
+                <h1>Que ver en Argentina</h1>
+            </div>
+            <button class="boton-dark" onclick="activarModoOscuro()">Modo Oscuro</button>
+            
+        </div>
+    </header>
+
+    <main>
+        <h2>Formulario de registro</h2>
+        <div>
+            <p class="texto">Resgistrate para recibir todas nuestras novedades y promociones</p><br>
+        </div>
+
+        <form name="formulario" method="get">
+            <label class="label" for="fname">Nombre: </label>
+            <input class="input" type="text" id="fname" name="fname" placeholder="Ingresa tu nombre">
+
+            <label class="label" for="lname">Apellido: </label>
+            <input class="input" type="text" id="lname" name="lname" placeholder="Ingresa tu apellido"> <br><br>
+
+            <label class="label" for="birthday">Fecha de nacimiento: </label>
+            <input class="input" type="date" id="birthday" name="birthday"><br><br>
+
+            <label class="label" for="email">Correo electrónico: </label>
+            <input class="input" type="email" id="mail" name="mail" placeholder="Ingresa tu e-mail"> <br><br>
+
+            <label class="label" for="frequency">¿Con qué frecuencia querés recibir nuestras novedades?</label>
+            <select class="select" id="frequency" name="frequency" >
+                <option value="empty"></option>
+                <option value="daily">Diaria</option>
+                <option value="weekly">Semanal</option>
+                <option value="monthly">Mensual</option>
+            </select>
+
+            <p class="texto">Algunas preguntas para conocerte mejor:</p><br>
+            <p class="texto">¿Cómo preferís viajar?</p>
+            <div class="opciones">
+            <table>
+                <tr>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="alone">Solo</td>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="partner">En pareja</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="family">Con familia</td>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="friends">Con amigos</td>
+                </tr>
+                <tr><td><br></td></tr>
+                <tr>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="scheduled">Seguir un programa</td>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="relaxed">Ir más relajado</td>
+                </tr>
+                <tr>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="excursions">Contratar excursiones</td>
+                    <td><input type="checkbox" id="prefer" name="prefer" value="adventures">Crear tu propia aventura</td>
+                </tr>
+            </table>
+            <br>
+            <label class="label" for="transport">¿Cuál es tu medio de transporte preferido?</label>
+            <select class="select" name="transport" id="transport">
+                <option value="empty"></option>
+                <option value="car">Auto</option>
+                <option value="bus">Micro/bus</option>
+                <option value="plane">Avión</option>
+            </select>
+            <br>
+            <label class="label" for="lodgement">¿Cuál es tu modo de hospedaje preferido?</label>
+            <select class="select" name="lodgement" id="lodgement">
+                <option value="empty"></option>
+                <option value="tent">Carpa</option>
+                <option value="hostel">Hostel</option>
+                <option value="hotel">Hotel</option>
+            </select>
+        
+        </div>
+
+            <br><br>
+            <input class="input" type="radio" id="terminos" name="terminos"> <span class="texto"> Acepto los <a class="enlace" href="terminosycondiciones.html">términos y condiciones</a></span>
+
+            <br><br> <input class="button" type="submit" id="enviar" value="Enviar" onclick="frenarEnvioRegistro()">
+            <br><br>
+        </form>
+        
+        <script src="js/validacion.js"></script>
+
+    </main>
+
+    <footer id="idFooter"></footer>
+    <script src="js/footer.js"></script>
+
+</body>
+
+</html>

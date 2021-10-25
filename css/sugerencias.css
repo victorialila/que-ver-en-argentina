@@ -1,0 +1,61 @@
+h2{
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #0b0125;
+    font-weight: lighter;
+    font-size: 2rem;
+    text-align: center;
+    text-shadow: 2px 2px 5px rgb(117,170,219);
+}
+
+form, main div {
+    margin: auto;
+    width: 500px;
+}
+
+@media (max-width: 550px) {
+    form, main div {
+      width: 90vw;
+    }
+}
+
+.label {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #0b0125;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.input {
+    border: 1px rgb(117,170,219) solid;
+    padding: auto;
+    border-radius: 5px;
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #0b0125;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.button {
+    background-color: rgb(117,170,219,0.5);
+    border: rgb(117,170,219,0.5) solid;
+    color: #0b0125;
+    padding: 5px 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    border-radius: 5px;
+    cursor: grab;
+}
+
+.texto {
+    font-family: Tahoma, Geneva, Verdana, sans-serif;
+    color : #0b0125;
+    font-weight: lighter;
+    font-size: 1rem;
+}
+
+.enlace{
+    font-weight: bold;
+    color : rgb(117,170,219);
+}
