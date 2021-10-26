@@ -10,4 +10,5 @@ style="font-size: 24px; color: #0b0125;"></i></a>
 <a href="https://www.facebook.com" target="_blank"><i class="fab fa-facebook-square"
 style="font-size: 24px; color: #0b0125;"></i></a>
 <br> Derechos reservados ©2021
+<br><br> <a href="nota-editor.html" target="_blank">Nota del editor</a>
 `
