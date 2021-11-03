@@ -14,6 +14,5 @@ El concepto de la página también es que los usuarios puedan enviar sugerencias
 
 Actividades futuras:
   Agregar barra de búsqueda en la misma web.
-  Crear una pestaña con "hojas de ruta" por regiones, pudiendo mezclar provincias
   Mejorar la experiencia de usuario en dispositivos móviles
   Opción de cambiar idioma
